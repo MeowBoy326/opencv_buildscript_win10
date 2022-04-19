@@ -1,0 +1,3 @@
+cmake -DANDROID_NDK=D:/android-sdk/ndk/android-ndk-r15c -DANDROID_ABI="x86" -DANDROID_NO_UNDEFINED=ON -DANDROID_SO_UNDEFINED=OFF -DCMAKE_CXX_COMPILER=D:/android-sdk/ndk/android-ndk-r15c/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -DCMAKE_C_COMPILER=D:/android-sdk/ndk/android-ndk-r15c/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -DCMAKE_BUILD_TYPE=RELEASE -DBUILD_SHARED_LIBS=1 -DCMAKE_GENERATOR="Ninja" -DCMAKE_TOOLCHAIN_FILE=D:/android-sdk/ndk/android-ndk-r15c/build/cmake/android.toolchain.cmake ..
+
+ninja -j 64
