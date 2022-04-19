@@ -1,4 +1,4 @@
-#opencv_buildscript_win10
+###opencv_buildscript_win10
 this repo is cmd script to build opencv 2.4.4 in win10
 
 ### Requirements
@@ -7,8 +7,7 @@ this repo is cmd script to build opencv 2.4.4 in win10
  - Ninja >= 1.8(recommend 1.8.2)
  - NDK >= r10(recommend r15c)
  
- 
- ### Installation
+### Installation
 ```sh
 $ git clone https://github.com/MeowBoy326/opencv_buildscript_win10.git
 $ cd opencv_buildscript_win10
