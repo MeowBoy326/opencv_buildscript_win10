@@ -3,8 +3,8 @@ this repo is cmd script to build opencv 2.4.4 in win10
 
 ### Requirements
  - Python >=2.7
- - CMake >=2.8
- - Ninja >= 0.10
+ - CMake >=2.8(recommend 3.10)
+ - Ninja >= 1.8(recommend 1.8.2)
  - NDK >= r10(recommend r15c)
  
  
